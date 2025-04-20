@@ -1,0 +1,128 @@
+/* Main page styling */
+.main {
+    background-color: #0F172A;
+    color: #F1F5F9;
+    font-family: 'Inter', sans-serif;
+}
+
+/* Sidebar styling */
+.css-1d391kg {
+    background-color: #1E293B;
+}
+
+/* Cards styling */
+div.stMetric {
+    background-color: #1E293B;
+    border-radius: 8px;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
+
+/* Typography */
+h1, h2, h3 {
+    font-weight: 700 !important;
+}
+
+/* Accent colors for metrics */
+.css-1wivap2 {
+    color: #3B82F6 !important; 
+}
+
+/* Input widgets styling */
+.stSelectbox > div > div {
+    background-color: #1E293B !important;
+    color: #F1F5F9 !important;
+    border-radius: 8px !important;
+}
+
+.stMultiSelect > div > div {
+    background-color: #1E293B !important;
+    color: #F1F5F9 !important;
+    border-radius: 8px !important;
+}
+
+/* Tabs styling */
+.stTabs [data-baseweb="tab-list"] {
+    gap: 8px;
+}
+
+.stTabs [data-baseweb="tab"] {
+    background-color: #1E293B !important;
+    border-radius: 8px 8px 0 0 !important;
+    padding: 10px 20px !important;
+    height: auto !important;
+}
+
+.stTabs [aria-selected="true"] {
+    background-color: #3B82F6 !important;
+    color: white !important;
+}
+
+/* Button styling */
+.stButton > button {
+    background-color: #3B82F6 !important;
+    color: white !important;
+    border-radius: 8px !important;
+    border: none !important;
+    padding: 10px 20px !important;
+    font-weight: 600 !important;
+    transition: all 0.3s ease !important;
+}
+
+.stButton > button:hover {
+    background-color: #2563EB !important;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
+
+/* DataFrame styling */
+.dataframe {
+    background-color: #1E293B !important;
+    border-radius: 8px !important;
+}
+
+/* Spinner styling */
+div.stSpinner > div > div {
+    border-top-color: #3B82F6 !important;
+}
+
+/* Info, warning, and error boxes */
+.stAlert > div {
+    border-radius: 8px !important;
+    padding: 16px !important;
+}
+
+/* Animation for cards */
+div.stMetric {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+div.stMetric:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+}
+
+/* Fix for dark mode tooltip text */
+.js-plotly-plot .plotly .g-gtitle {
+    fill: #F1F5F9 !important;
+}
+
+/* Scrollbar styling */
+::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #1E293B;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #475569;
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #64748B;
+}
